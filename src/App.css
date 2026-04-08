@@ -1,0 +1,94 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+
+.scoreboard, .history-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 320px;
+
+  box-shadow: 
+    10px 10px 20px rgba(0,0,0,0.1),
+    -10px -10px 20px rgba(255,255,255,0.7);
+}
+
+
+.moves {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+
+.winner {
+  font-weight: bold;
+  color: #ff4d6d;
+}
+
+
+.streak {
+  color: #ff9f1c;
+}
+
+
+.buttons {
+  margin-top: 20px;
+}
+
+
+.btn {
+  font-size: 2rem;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+  background: #ffffff;
+
+  box-shadow: 
+    5px 5px 10px rgba(0,0,0,0.1),
+    -5px -5px 10px rgba(255,255,255,0.8);
+
+  transition: 0.2s;
+}
+
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+
+.reset-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: #ff4d6d;
+  color: white;
+  font-weight: bold;
+}
+
+
+.history-item {
+  list-style: none;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
